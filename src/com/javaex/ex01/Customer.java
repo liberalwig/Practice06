@@ -1,3 +1,11 @@
+/*2021.11.30(화)16:16-깃허브 문제 해결-16:46
+
+[문제] com.javaex.ex01 패키지
+아래의 실행결과가 출력되도록 클래스 다이어그램을 보고 클래스를 작성하세요. 
+(PersonApp.java 는 수정하지 않습니다.)
+
+*/
+
 package com.javaex.ex01;
 
 public class Customer extends Person{
@@ -10,7 +18,7 @@ public class Customer extends Person{
 	}
 	
 	public Customer(String name, String hp, int cNo, int point) {
-		super();
+		super(name, hp);
 		this.cNo = cNo;
 		this.point = point;
 	}
